@@ -1,2 +1,1 @@
 This project will be practicing styling and aligning elements on a webpage by making a clone of the Google homepage.
-I'll be using the browser's developer tools to deconstruct the page and remake it myself.
