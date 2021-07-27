@@ -1,5 +1,5 @@
 body {
-    font-family: arial,sans-serif;
+    font-family: Arial, sans-serif;
     font-size: 13px;
     opacity: .75;
 }
@@ -11,15 +11,24 @@ img, div {
 }
 
 ul {
+    display: flex;
+    align-items: center;
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
 li {
-    display: inline;
-    float: left;
+    display: flex;
     padding: 8px;
+}
+
+.push-right {
+    margin-left: auto;
+}
+
+.push-left {
+    margin-right: auto;
 }
 
 .logo {
@@ -54,4 +63,13 @@ li {
     height: 20px;
     padding-left: 7px;
     display: flex;
+}
+
+.bottom-navbar{
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
