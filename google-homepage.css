@@ -1,6 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    font-size: 13px;
+    text-decoration: none;
+    font-size: 14px;
     opacity: .75;
 }
 
@@ -63,13 +64,57 @@ li {
     height: 20px;
     padding-left: 7px;
     display: flex;
+    opacity: 50%;
 }
 
-.bottom-navbar{
+.search-buttons {
+    display: flex;
+    width: 295px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.google-search {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 36px;
+    width: 128px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+}
+
+.feeling-lucky {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 36px;
+    width: 143px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+}
+
+.leaf {
+    width: 12.25px;
+    height: 14px;
+    display: flex;
+}
+
+.bottom-navbar {
+    display: flex;
     background: #f2f2f2;
     border-top: 1px solid #e4e4e4;
     font-size: 14px;
+    opacity: 80%;
     position: fixed;
     bottom: 0;
     width: 100%;
+    margin: 0px;
+    padding: 5px;
+    height: 35px;
+}
+
+.bottom-elements {
+    padding: 13px;
 }
