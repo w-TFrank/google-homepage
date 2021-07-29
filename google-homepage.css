@@ -70,9 +70,9 @@ li {
 .search-buttons {
     display: flex;
     width: 295px;
-    margin-left: auto;
-    margin-right: auto;
     margin-top: 30px;
+    color: black;
+    opacity: 90%;
 }
 
 .google-search {
@@ -81,17 +81,9 @@ li {
     display: flex;
     height: 36px;
     width: 128px;
-    background-color: #f2f2f2;
-    font-size: 14px;
-}
-
-.feeling-lucky {
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    height: 36px;
-    width: 143px;
-    background-color: #f2f2f2;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
     font-size: 14px;
 }
 
@@ -111,8 +103,8 @@ li {
     bottom: 0;
     width: 100%;
     margin: 0px;
-    padding: 5px;
-    height: 35px;
+    padding: 10px;
+    height: 30px;
 }
 
 .bottom-elements {
